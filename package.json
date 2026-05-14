@@ -1,0 +1,23 @@
+{
+  "name": "edtech-musical-roadmap",
+  "version": "1.0.0",
+  "description": "Roadmap estratégico para la escalabilidad de un ecosistema EdTech musical.",
+  "main": "main.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "keywords": [
+    "edtech",
+    "roadmap",
+    "frontend",
+    "tailwindcss",
+    "canvas-animation",
+    "crowdfunding"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

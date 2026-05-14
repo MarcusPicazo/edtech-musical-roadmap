@@ -1,0 +1,29 @@
+/* Ocultar barra de scroll para mayor limpieza visual pero permitiendo scrollear */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Clases base para animaciones gestionadas por JavaScript */
+.fade-section {
+    opacity: 0;
+    transform: translateY(3rem);
+    transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.fade-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
